@@ -177,6 +177,7 @@ const EarnPoints: React.FC = () => {
               </div>
             ))}
           </div>
+
           <div className="flex flex-col items-center justify-center gap-3 p-4">
             <small className="text-gray-500">
               Check in daily to earn +5 points
@@ -240,11 +241,8 @@ const EarnPoints: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex justify-between gap-5 p-4 border-b border-gray-300">
-            <div>
-              <LucideCalendarIcon />
-              <ZapIcon />
-            </div>
+          <div className="flex justify-between items-center w-full gap-5 p-2 border-b border-gray-300">
+        
             <a
               href="https://reclaim.ai/?pscd=go.reclaim.ai&ps_partner_key=MTZlZThkOWRhMTI4&ps_xid=S4cecfz1mUJek1&gsxid=S4cecfz1mUJek1&gspk=MTZlZThkOWRhMTI4"
               target="_blank"
