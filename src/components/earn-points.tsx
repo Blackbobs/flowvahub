@@ -221,6 +221,25 @@ const EarnPoints: React.FC = () => {
             </div>
             <p className="text-lg font-bold">Reclaim</p>
           </div>
+          <div className="p-[1rem]">
+            <div className="flex justify-start mb-[1rem]">
+              <div className="w-[24px] h-[24px] animate-pulse bg-[#eef2ff] rounded-[6px] flex items-center justify-center mr-[1rem] flex-shrink-0 text-[#9013fe]">
+                <LucideCalendarIcon />
+              </div>
+              <div className="flex-1">
+                <h4 className="mb-[0.25rem] font-semibold">
+                  Automate and Optimize Your Schedule
+                </h4>
+                <p className="text-[0.875rem] text-gray-600">
+                  Reclaim.ai is an AI-powered calendar assistant that
+                  automatically schedules your tasks, meetings, and breaks to
+                  boost productivity. Free to try — earn Flowva Points when you
+                  sign up!
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="flex justify-between gap-5 p-4 border-b border-gray-300">
             <div>
               <LucideCalendarIcon />
